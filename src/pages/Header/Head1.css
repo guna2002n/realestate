@@ -1,0 +1,50 @@
+.head1{
+    height: 13vh;
+    width: 100%;
+    background-color: #06112A;
+    display: flex;
+    padding: 0 4%;
+}
+.head1_content{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    
+}
+.h_prof{
+    height: 38px;
+    width: 40px;
+    border: 0.01rem solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.h_contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    color: white;
+    font-size: 14px;
+}
+.h_f{
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+    
+}
+.h_f span{
+    color: #5EA51D;
+}
+.h1_para{
+    font-weight: lighter;
+    padding-top: 6px;
+    text-transform: capitalize;
+    margin: 0;
+}

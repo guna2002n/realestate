@@ -1,0 +1,74 @@
+.property{
+    position: absolute;
+    top:  -107px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.property_dtails button{
+    border: none;
+    padding: 15px 25px;
+}
+#b2{
+    background-color: #5EA51D;
+    color: white;
+    margin-left: 10px;
+}
+#pro_filter_form{
+    display: flex;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: white;
+}
+#pro_filter_form .pro_box{
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.pro_search{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.pro_search .fa-magnifying-glass{
+    color: #D4D4D4;
+}
+.pro_search input{
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    color: #D4D4D4;
+}
+.pro_search input::placeholder{
+    color:#D4D4D4 ;
+}
+#prop_type{
+    border: none;
+    outline: none;
+    width: 60%;
+    height: 100%;
+    font-size: 12px;
+    color: #D4D4D4;
+}
+#prop_type:focus{
+    color: black;
+}
+.pro_box_button{
+    background-color: #5EA51D;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
