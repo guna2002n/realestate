@@ -1,0 +1,21 @@
+.sample_images{
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sample_img{
+    height: 15rem;
+    flex: 1;
+    width: flex;
+}
+.sample_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:750px) {
+    .sample_images{
+        flex-direction: column;
+    }
+}

@@ -6,4 +6,10 @@
 body{
   height: 100%;
   max-width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+#root{
+  display: flex;
+  justify-content: center;
 }

@@ -1,0 +1,74 @@
+.ourclient{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.ourclient p{
+    color: #5EA51D;
+}
+.client_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.CardSlider{
+    width:  100%;
+}
+.card_slider{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 20px;
+    position: relative;
+}
+.card_slider p{
+    color: black;
+}
+.clint_img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.clint_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fa-comments{
+    padding: 0.7rem 0.6rem;
+    background-color: #5EA51D;
+    color: white;
+    position: absolute;
+    top: -20px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.slick-track{
+    margin: 1.3rem 0;
+}
+.card_slider{
+    width: 95% !important;
+    overflow: unset;
+}
+.client_profil{
+    width:  100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+}
+.client_details p{
+    color: black;
+}
+.client_details p{
+    text-transform: uppercase;
+    color: #5EA51D;
+    font-size: 12pxs;
+}

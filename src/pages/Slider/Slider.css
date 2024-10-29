@@ -1,0 +1,42 @@
+.carousel-item{
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sliderImage{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    filter: brightness(.5);
+    
+}
+.carousel-caption{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-caption h2{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.carousel-inner .active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-control-prev,.carousel-control-next{
+    display: none;
+}
+.carousel-indicators{
+    flex-direction: column;
+    align-items: end;
+    top: 0;
+    right: -10vw;
+}
+.carousel-indicators .active{
+    background-color: green;
+}
+@media screen and (max-width:500px) {
+    .carousel-caption h2{
+        font-size: 40px;
+    }
+    
+}

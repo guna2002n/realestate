@@ -1,0 +1,57 @@
+.Signup{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t4.ftcdn.net/jpg/03/00/10/35/360_F_300103505_oBLUa4dEG8mFdP60givbyNdoy7aHFmuu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Signup form{
+    border-radius: 10px;
+    padding: 3rem 4rem;
+    min-width: 30rem;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+ 
+}
+.Signup form h1{
+    color: white;
+}
+.Signup form input,.Signup form button{
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.Signup form button{
+    background-color: greenyellow;
+    color: white;
+    font-size: 20px;
+}
+.showPassword{
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    color: white;
+}
+.userlocation{
+    display: flex;
+    column-gap: 5px;
+}
+.userlocation label{
+    color: white;
+}
+.userlocation select{
+    outline: none;
+    width: 10rem;
+    border-radius: 4px;
+}

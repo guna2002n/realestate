@@ -7,6 +7,9 @@
     flex-direction: column;
     align-items: center;
 }
+.property_dtails{
+    flex-wrap: wrap;
+}
 .property_dtails button{
     border: none;
     padding: 15px 25px;
@@ -47,10 +50,10 @@
     padding-left: 5px;
     border: none;
     outline: none;
-    color: #D4D4D4;
+    color: #b4adad;
 }
 .pro_search input::placeholder{
-    color:#D4D4D4 ;
+    color:#b4adad ;
 }
 #prop_type{
     border: none;
@@ -58,7 +61,7 @@
     width: 60%;
     height: 100%;
     font-size: 12px;
-    color: #D4D4D4;
+    color: #b4adad;
 }
 #prop_type:focus{
     color: black;
@@ -71,4 +74,12 @@
     align-items: center;
     color: white;
     font-size: 16px;
+}
+.pro_box{
+    padding: 2rem ;
+}
+@media screen and (max-width:755px) {
+    #pro_filter_form{
+        flex-direction: column;
+    }
 }

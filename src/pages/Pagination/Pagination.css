@@ -1,0 +1,18 @@
+.Pagination{
+    height: 2rem;
+    border:  1px gray solid;
+    color: black;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+.Pagination button{
+    height: 100%;
+    border: none;
+    width: 4rem;
+    border-right: 1px gray solid;
+}
+.Pagination .active{
+    background-color: #5EA51D;
+    color: white;
+}

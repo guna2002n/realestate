@@ -1,0 +1,67 @@
+.Aboutus{
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    padding: 0 8%;
+
+}
+.about_left{
+    flex: 1.3;
+   
+    background-image: url(https://preview.colorlib.com/theme/oakberry/images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 4rem;
+    
+}
+.about_right{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.about_right p{
+    color: #b4adad;
+    text-align: justify;
+}
+.about_title{
+    color: #5EA51D;
+}
+.About_exprence{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+.about_box{
+    flex: 1;
+}
+.about_box p{
+    color: #5EA51D;
+}
+.about_heading{
+    font-size: 4rem;
+}
+.about_icon{
+    overflow: hidden;
+    height: 19.6rem;
+    width: 100%;
+}
+.about_icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:1000px) {
+    .about_left{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:700px) {
+
+    .About_exprence{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,21 @@
+.aboutpage{
+    width: 100%;
+}
+.about_content_image{
+    height: 45rem;
+    width: 100%;
+    background-image: url('https://preview.colorlib.com/theme/oakberry/images/bg_4.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.about_content_image p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.about_content_image h1{
+    font-size: 4rem;
+}

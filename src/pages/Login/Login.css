@@ -1,0 +1,50 @@
+.profilbox{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://t4.ftcdn.net/jpg/03/00/10/35/360_F_300103505_oBLUa4dEG8mFdP60givbyNdoy7aHFmuu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profilbox form{
+    border-radius: 10px;
+    padding: 3rem 4rem;
+    min-width: 30rem;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.profilbox form input, .profilbox form button
+{
+    border: 1px solid #b4adad;
+   height: 3rem;
+   border-radius: 10px;
+   padding-left: 20px;
+   outline: none;
+}
+.profilbox form {
+    color: white;
+}
+.showPass{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    padding: 0;align-items: center;
+}
+.showPass input{
+
+    margin-right: 5px;
+}
+.profilbox form button{
+    background-color: greenyellow;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}

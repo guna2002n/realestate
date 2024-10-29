@@ -1,0 +1,49 @@
+.Footer{
+    background-color: #06112A;
+    width: 100%;
+   
+    padding-bottom: 0;
+}
+.footer1{
+    width: 100%;
+    padding: 7rem 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerh{
+    flex: 1;
+}
+.footer_offer{
+    flex: 1.1;
+}
+.footer_content{
+    padding: 0 1rem;
+}
+.footerh ul,p {
+    list-style: none;
+    color: white;
+    font-size: 14px;
+}
+.footerh ul li,p{
+    padding-bottom: 7px;
+}
+.footer_head{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+.footer2{
+    width: 100%;
+    text-align: center;
+    background-color: #050D21;
+    padding: 2rem 0;
+}
+.footer_qustion {
+    list-style: none;
+    color: white;
+}
+.footer_qustion li{
+    display: flex;
+    column-gap: 10px;
+}

@@ -1,0 +1,9 @@
+.Agentpages{
+    width:  100%;
+}
+.Agentpages .Agents{
+    background: none;
+}
+.Agentpages .Agents .agent_heading{
+    display: none;
+}
